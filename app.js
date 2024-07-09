@@ -31,6 +31,7 @@ const toggleMenu = (hide) => {
         document.querySelectorAll('svg')[1].classList.add('hidden')
     }
 }
+window.toggleMenu = toggleMenu
 
 const renderTrading = () => {
     const tradingHTML = `<div
